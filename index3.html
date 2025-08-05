@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validated Form</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+
+    <!-- This is the form where users enter their name and email -->
+    <form id="form">
+        <!-- Name input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example@email.com" required>
+        <br><br>
+
+        <!-- Button to submit the form -->
+        <button type="submit">Send</button>
+    </form>
+
+    <!-- Where error messages will appear -->
+    <div id="errors" style="color: red;"></div>
+
+    <!-- Where the success message will appear -->
+    <div id="successMessage" style="color: green;"></div>
+
+    <!-- Connects the JavaScript file to the page -->
+    <script src="script.js"></script>
+</body>
+
+</html>

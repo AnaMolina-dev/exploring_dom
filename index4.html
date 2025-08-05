@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Form</title>
+</head>
+
+<body>
+    <h1>Form with JavaScript Validations</h1>
+
+    <!-- The form users will fill out -->
+    <form id="form">
+        <!-- Name input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="example@email.com">
+        <br><br>
+
+        <!-- Age input -->
+        <label for="age">Age:</label>
+        <input type="text" id="age" placeholder="Your age">
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Send</button>
+    </form>
+
+    <!-- Where error messages will show -->
+    <div id="errors" style="color: red;"></div>
+
+    <!-- Where success message will show -->
+    <div id="successMessage" style="color: green;"></div>
+
+    <!-- Connects the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
